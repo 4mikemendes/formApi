@@ -23,7 +23,7 @@ class Api extends Component {
         return (
             <div>
                 <button onClick={this.eventHandeler}>what to do?</button>
-                <p>{this.state.firstName} {this.state.lastName} {this.state.activity.activity}</p>
+                <p>{this.state.activity.activity}</p>
             </div>
         )
     }
